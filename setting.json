@@ -1,0 +1,152 @@
+{
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "files.autoSave": "afterDelay",
+    "sync.syncExtensions": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "Tober",
+        "yixuxi"
+    ],
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.lineHeight": 22,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "[vue]": {
+    
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "editor.guides.indentation": false,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.validate.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Moegi Black",
+    "bookmarks.useWorkaroundForFormatters": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.tabSize": 2,
+    "editor.guides.bracketPairs": "active",
+    "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "window.zoomLevel": 1,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "/Users/tober/document/private workspace/leetcode",
+    "leetcode.defaultLanguage": "javascript",
+    "better-comments.tags": [
+        
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "gitlens.graph.experimental.minimap.enabled": true,
+}
